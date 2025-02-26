@@ -50,6 +50,10 @@ a{
   font-size: 14px;
 }
 
+.font-30{
+  font-size: 30px;
+}
+
 .line-1dot5{
   line-height: 1.5;
 }
@@ -72,6 +76,10 @@ a{
 
 .pt-30{
   padding-top: 30px;
+}
+
+.p-30{
+  padding: 30px;
 }
 
 .pt-50{
@@ -114,12 +122,25 @@ a{
   margin: 50px 0px;
 }
 
+.mt-100{
+  margin-top: 100px;
+}
+
+.mb-100{
+  margin-bottom: 100px;
+}
+
 .my-100{
   margin: 100px 0px;
 }
 
 .color-blue{
   color: #0060FD;
+}
+
+.unstyled{
+  text-decoration: underline;
+  color: blue;
 }
 
 .bg-blue{
@@ -155,6 +176,9 @@ a{
   justify-content: space-between;
 }
 
+.gap-y{
+  gap: 40px 0px;
+}
 
 /* page content style */
 
@@ -281,11 +305,6 @@ img[alt="jumbo"]{
   margin: 24px 0px;
 }
 
-.buy-now a{
-  text-decoration: underline;
-  color: blue;
-}
-
 .plan-card-content hr{
   border-bottom: 1px solid rgb(185, 185, 185);
   opacity: 0.5;
@@ -326,13 +345,4 @@ img[alt=partner]{
 #partner-btn{
   border: 1px solid black;
   background-color: transparent;
-}
-
-/* showcase */
-#showcase{
-  font-size: 30px;
-}
-
-.gap-y{
-  gap: 40px 0px;
 }
