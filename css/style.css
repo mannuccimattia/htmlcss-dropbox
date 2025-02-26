@@ -14,6 +14,10 @@ body{
   width: 30%;
 }
 
+.col-33{
+  width: 33%;
+}
+
 .col-50{
   width: 50%;
 }
@@ -42,6 +46,10 @@ a{
   font-size: 12px;
 }
 
+.font-14{
+  font-size: 14px;
+}
+
 .line-1dot5{
   line-height: 1.5;
 }
@@ -50,12 +58,20 @@ a{
   padding: 10px 0px;
 }
 
-.pt-30{
-  padding-top: 30px;
+.px-10{
+  padding: 0px 30px;
 }
 
-.p-30{
-  padding: 30px;
+.py-20{
+  padding: 20px 0px;
+}
+
+.px-30{
+  padding: 0px 30px;
+}
+
+.pt-30{
+  padding-top: 30px;
 }
 
 .pt-50{
@@ -64,6 +80,10 @@ a{
 
 .ml-5{
   margin-left: 5px;
+}
+
+.my-15{
+  margin: 15px 0px;
 }
 
 .ml-20{
@@ -88,6 +108,10 @@ a{
 
 .mr-50{
   margin-right: 50px;
+}
+
+.my-50{
+  margin: 50px 0px;
 }
 
 .my-100{
@@ -121,6 +145,10 @@ a{
 
 .d-flex{
   display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .justify-content-between{
@@ -300,3 +328,11 @@ img[alt=partner]{
   background-color: transparent;
 }
 
+/* showcase */
+#showcase{
+  font-size: 30px;
+}
+
+.gap-y{
+  gap: 40px 0px;
+}
