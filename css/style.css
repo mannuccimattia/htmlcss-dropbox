@@ -74,7 +74,7 @@ li{
 }
 
 .px-10{
-  padding: 0px 30px;
+  padding: 0px 10px;
 }
 
 .py-20{
@@ -147,6 +147,10 @@ li{
 
 .color-blue{
   color: #0060FD;
+}
+
+.color-grey{
+  color: gray;
 }
 
 .unstyled{
