@@ -38,6 +38,14 @@ a{
 
 
 /* utility */
+.font-12{
+  font-size: 12px;
+}
+
+.line-1dot5{
+  line-height: 1.5;
+}
+
 .py-10{
   padding: 10px 0px;
 }
@@ -48,6 +56,10 @@ a{
 
 .p-30{
   padding: 30px;
+}
+
+.pt-50{
+  padding-top: 50px;
 }
 
 .ml-5{
@@ -76,6 +88,10 @@ a{
 
 .mr-50{
   margin-right: 50px;
+}
+
+.my-100{
+  margin: 100px 0px;
 }
 
 .color-blue{
@@ -273,3 +289,14 @@ img[alt="jumbo"]{
   font-size: 12px;
   margin-bottom: 0;
 }
+
+/* partnership */
+img[alt=partner]{
+  width: 100%;
+}
+
+#partner-btn{
+  border: 1px solid black;
+  background-color: transparent;
+}
+
