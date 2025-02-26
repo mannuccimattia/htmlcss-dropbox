@@ -22,10 +22,20 @@ body{
   width: 65%;
 }
 
+.col-100{
+  width: 100%;
+}
+
 .container{
   max-width: 60%;
   margin: 0 auto;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 
 /* utility */
 .py-10{
@@ -58,6 +68,10 @@ body{
 
 .my-40{
   margin: 40px 0px;
+}
+
+.mt-40{
+  margin-top: 40px;
 }
 
 .mr-50{
@@ -117,11 +131,6 @@ header ul li{
   display: inline-block;
   list-style-type: none;
   vertical-align: middle;
-}
-
-a{
-  text-decoration: none;
-  color: black;
 }
 
 .btn-header{
@@ -208,7 +217,7 @@ img[alt="jumbo"]{
   font-weight: 100;
 }
 
-.plan-card-content>*{
+.d-flex .plan-card-content>*{
   margin-bottom: 30px;
 }
 
@@ -248,4 +257,19 @@ img[alt="jumbo"]{
 
 .plan-info-hidden{
   display: none;
+}
+
+#enterprise{
+  margin-bottom: 10px;
+}
+
+#enterprise-btn{
+  margin: 30px;
+  font-size: 12px;
+  padding: 10px 30px
+}
+
+#enterprise-text{
+  font-size: 12px;
+  margin-bottom: 0;
 }
