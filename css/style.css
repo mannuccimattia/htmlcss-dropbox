@@ -10,6 +10,10 @@ body{
   background-color: #fff;
 }
 
+.col-20{
+  width: 20%;
+}
+
 .col-30{
   width: 30%;
 }
@@ -40,6 +44,13 @@ a{
   color: black;
 }
 
+li{
+  list-style-type: none;
+}
+
+.fa-check{
+  padding-top: 1px;
+}
 
 /* utility */
 .font-12{
@@ -197,7 +208,6 @@ header{
 
 header ul li{
   display: inline-block;
-  list-style-type: none;
   vertical-align: middle;
 }
 
@@ -345,4 +355,18 @@ img[alt=partner]{
 #partner-btn{
   border: 1px solid black;
   background-color: transparent;
+}
+
+/* footer */
+footer{
+  background-color: #000;
+  color: #fff;
+}
+
+footer ul li{
+  margin: 15px 0px;
+}
+
+footer a{
+  color: #fff;
 }
