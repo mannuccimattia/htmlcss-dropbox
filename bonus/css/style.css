@@ -228,6 +228,10 @@ li{
   gap: 40px 0px;
 }
 
+.pos-rel{
+  position: relative;
+}
+
 /* page content style */
 
 /* header */
@@ -298,6 +302,13 @@ h1{
 
 img[alt="jumbo"]{
   width: 100%;
+}
+
+img[alt="jumbo-support"]{
+  width: 60%;
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
 }
 
 .jumbo-arrow{
@@ -384,6 +395,10 @@ img[alt="jumbo"]{
 /* partnership */
 img[alt=partner]{
   width: 100%;
+}
+
+img[alt=ai-chat]{
+  width: 60%;
 }
 
 #partner-btn{
