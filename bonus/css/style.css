@@ -250,10 +250,23 @@ header ul li{
 
 .btn-header{
   padding: 6px 12px;
+  border: 2px solid transparent;
 }
 
 .btn{
   padding: 10px 20px;
+  border: 2px solid transparent;
+}
+
+.btn-hov:hover{
+  color: #0060FD;
+  background-color: transparent;
+  border: 2px solid #0060FD;
+}
+
+.btn-hov:hover a{
+  color: #0060FD;
+  background-color: transparent;
 }
 
 /* jumbo */
