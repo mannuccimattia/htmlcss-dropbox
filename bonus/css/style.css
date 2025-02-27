@@ -228,6 +228,10 @@ li{
   justify-content: space-between;
 }
 
+.align-items-center{
+  align-items: center;
+}
+
 .gap-y{
   gap: 40px 0px;
 }
@@ -317,6 +321,10 @@ img[alt="jumbo-support"]{
 
 .jumbo-arrow{
   margin-top: 50px;
+}
+
+.jumbo-arrow:hover{
+  color: #0060FD;
 }
 
 .hr-style hr{
@@ -475,3 +483,12 @@ footer{
   color: grey;
 }
 
+/* sales.html */
+.contacts{
+  text-align: center;
+}
+
+
+.bold{
+  font-weight: 700;
+}
