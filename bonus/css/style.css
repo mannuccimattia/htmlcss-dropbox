@@ -10,6 +10,10 @@ body{
   background-color: #fff;
 }
 
+.col-10{
+  width: 10%;
+}
+
 .col-20{
   width: 20%;
 }
@@ -461,6 +465,10 @@ footer{
   margin: 17px 0px;
   padding: 0px 15px 0px 0px;
   background-color: black;
+}
+
+.language li{
+  padding: 2px 0px;
 }
 
 .language a{
