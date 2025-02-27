@@ -406,16 +406,36 @@ footer{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 100px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
   display: block;
 }
 
 .dropdown-list li{
   display: block;
   padding: 10px 0px;
+  border-bottom: 1px dashed gray;
 }
+
+.dropdown-list li:nth-child(1){
+  border-top: 1px dashed gray;
+}
+
+.language{
+  right: 0;
+  bottom: 0;
+  text-align: end;
+  min-width: unset;
+  margin: 17px 0px;
+  padding: 0px 15px 0px 0px;
+  background-color: black;
+}
+
+.language a{
+  color: grey;
+}
+
