@@ -7,3 +7,5 @@ Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel lay
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un pò con unità relative, senza però crearci nuove difficoltà, tanto meglio.
 Numero minimo di push: 17
 Buon lavoro!
+
+DONE

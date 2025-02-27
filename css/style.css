@@ -89,6 +89,10 @@ li{
   padding: 0px 10px;
 }
 
+.pr-10{
+  padding-right: 10px;
+}
+
 .py-20{
   padding: 20px 0px;
 }
@@ -107,6 +111,10 @@ li{
 
 .pl-30{
   padding-left: 30px;
+}
+
+.pb-40{
+  padding-bottom: 40px;
 }
 
 .pt-50{
@@ -370,6 +378,7 @@ img[alt=partner]{
 footer{
   background-color: #000;
   color: #fff;
+
 }
 
 footer ul li{
