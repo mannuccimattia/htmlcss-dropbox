@@ -16,6 +16,7 @@ body{
 
 .col-30{
   width: 30%;
+  min-width: 30%
 }
 
 .col-50{
@@ -139,6 +140,10 @@ li{
 
 .mr-20{
   margin-right: 20px;
+}
+
+.mr-30{
+  margin-right: 30px;
 }
 
 .my-30{
@@ -286,13 +291,12 @@ img[alt="jumbo"]{
   margin-top: 50px;
 }
 
-.hr-style{
-  margin-top: 120px;
-}
-
-#jumbotron hr{
-  color: #fff;
-  border: 1px solid #f2f2f2;
+.hr-style hr{
+  margin-top: 140px;
+  height: 1px;
+  color: #dadada;
+  background-color: #dadada;
+  border: none;
 }
 
 /* plannings */
@@ -381,10 +385,37 @@ footer{
 
 }
 
-footer ul li{
+.upper-footer ul li{
   margin: 15px 0px;
 }
 
-footer a{
+.upper-footer a{
   color: #fff;
+}
+
+#language-caret{
+  color: grey;
+}
+
+/* dropdown */
+.dropdown{
+  position: relative;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-list li{
+  display: block;
+  padding: 10px 0px;
 }
